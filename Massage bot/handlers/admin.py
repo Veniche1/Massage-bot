@@ -19,7 +19,7 @@ from database import (
 )
 
 router = Router()
-ADMIN_IDS = [5234640144,5598133208]
+ADMIN_IDS = []
 
 def is_admin(user_id: int) -> bool:
     return user_id in ADMIN_IDS
